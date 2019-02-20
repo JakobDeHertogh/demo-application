@@ -3,7 +3,7 @@ python:
   - "3.6"
 # command to install dependencies
 install:
-  - pip install graphviz
+  - apt-get install graphviz
   - pip install -U -r requirements.txt
   - pip install .
 # command to run tests
